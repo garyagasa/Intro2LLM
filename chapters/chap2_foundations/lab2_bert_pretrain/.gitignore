@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+.env
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db
+
+# Hugging Face / datasets cache
+.cache/
+hf_cache/
+datasets/
+transformers_cache/
+
+# Training outputs
+data/
+artifacts/
+wandb/
+runs/
+checkpoints/
+output/
+
+# Logs
+*.log
